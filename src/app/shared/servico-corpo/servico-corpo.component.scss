@@ -1,0 +1,42 @@
+
+.servico_container {
+  background: no-repeat  url(../../../assets/fundo_servico1.jpg);
+
+}
+
+.titulo_servico {
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+}
+
+.servico {
+
+  padding: 15em 0 ;
+  text-align: center;
+}
+
+.lista {
+  display: inline;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+
+}
+
+.preco_servico {
+  margin-left: 55vh;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+hr {
+  margin: 1em 20%;
+  text-align: center;
+  color: white;
+
+  height: 5px;
+  background: white;
+}

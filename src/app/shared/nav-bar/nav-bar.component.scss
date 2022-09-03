@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.button_header{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #687885;
+    border: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url(../../../assets/fundo2.jpg);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 100px;
+}
+
+header nav p {
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.header-container {
+
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    color: white;
+}
+
+.header-container p {
+    color: white;
+}
+
+@media (max-width: 480px){
+
+  body {
+      height: calc(100vh - 55px);
+  }
+  header nav ul{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+      font-weight: bold;
+      height: 55px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: black;
+  }
+
+  header nav p {
+      width: 100%;
+      text-align: center;
+  }
+
+
+}

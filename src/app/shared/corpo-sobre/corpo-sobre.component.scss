@@ -1,0 +1,38 @@
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 5em;
+}
+.principal_imagem{
+  border-radius: 50px 0 50px 0;
+}
+.texto {
+  margin: 1.5em 0;
+}
+
+
+.container_secundario {
+  margin: 0 0 10em
+
+}
+
+.descricao_titulo {
+  font-weight: 700;
+  font-size: 55px;
+  color: black;
+  margin-bottom: 0.1em;
+  text-align: center;
+}
+
+
+.secundario_imagem {
+  width: 45%;
+  margin-left: 10em;
+  margin-bottom: 10em;
+
+
+}
+
+
+
+
